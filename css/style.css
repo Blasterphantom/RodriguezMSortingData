@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Gowun;
+    src: url(../assets/Gowun_Batang/GowunBatang-Regular.ttf);
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: beige;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: Gowun;
+    margin-top: 20px;
+}
+
+.table{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+    border-style: solid;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.result{
+    width: 800px;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.sortRow{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border-style: none !important;
+}
+
+.sortText{
+    font-family: Gowun;
+}
+
+.sortRowBtns{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    border-style: none !important;
+}
+
+.clickBtn{
+    width: 200px;
+    margin: 20px;
+}
+
+.nameRow{
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
+
+.textCreate{
+    font-family: Gowun;
+}
+
+.rowBtns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pageBtn{
+    width: 50px;
+    font-family: Gowun;
+}
